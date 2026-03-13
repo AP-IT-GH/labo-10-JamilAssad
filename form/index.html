@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="nav-bar">
+        <ul>
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </div>
+      <div class="middle">
+        <div class="img">
+          <img src="./image.avif" alt="stuurEen-bericht" />
+        </div>
+
+        <div class="contact">
+          <label for="naam">Naam</label>
+          <input
+            id="naam"
+            name="naam"
+            type="text"
+            required
+            placeholder="John Doe"
+          />
+          <label for="email">Email:</label>
+          <input
+            id="email"
+            name="email"
+            type="email"
+            required
+            placeholder="johndoe@ap.be"
+          />
+
+          <label for="comments">Bericht:</label>
+          <textarea
+            name="comments"
+            id="comments"
+            cols="60"
+            rows="10"
+            required
+            placeholder="Laat hier je bericht achter."
+          ></textarea>
+
+          <button>VERZENDEN</button>
+        </div>
+      </div>
+      <footer><h1>Footer AP - Hogeschool</h1></footer>
+    </div>
+  </body>
+</html>

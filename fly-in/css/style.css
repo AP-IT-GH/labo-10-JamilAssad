@@ -1,0 +1,22 @@
+.parent {
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #000;
+}
+h1 {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  animation: text 3s infinite;
+}
+
+@keyframes text {
+  from { 
+    transform: translate(-40vw, 50vh);
+  }
+
+  to {
+    transform: translate(45vw, 50vh);
+
+  }
+}

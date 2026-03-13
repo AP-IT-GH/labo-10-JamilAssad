@@ -1,0 +1,17 @@
+.parent {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background: rgb(220, 31, 39);
+    width: 300px;
+    height: 300px;
+}
+.box:hover {
+    background: rgb(5, 16, 232);
+    border-radius: 50%;
+    transition: 2s;
+}

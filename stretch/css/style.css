@@ -1,0 +1,33 @@
+.box {
+    width: 500PX;
+    height: 150px;
+    background: rgb(91, 185, 169);
+    animation: box  1s 250ms  infinite;
+
+    /* animation-name: box ;
+    animation-delay: 250ms;
+    animation-duration: 1s;
+    animation-iteration-count: infinite; */
+    
+    
+}
+.parent {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes box {
+  0% {
+    width: 500px;
+  }
+
+  50% {
+    width: 1000px;
+  }
+
+  100% {
+    width: 500px;
+  }
+}
